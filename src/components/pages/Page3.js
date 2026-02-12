@@ -17,7 +17,7 @@ const Page3 = () => {
           >
             <img
               src={`/images/foto${n}.jpeg`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover" alt=""
             />
           </div>
         ))}

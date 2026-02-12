@@ -1,4 +1,4 @@
-import { motion, useMotionValue, useTransform, animate, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
