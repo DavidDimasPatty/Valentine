@@ -57,6 +57,7 @@ const Book = () => {
     return (
         <div className="w-[75%] max-w-80 h-[60%] overflow-hidden relative rounded-xl">
             <AnimatePresence custom={direction} mode="wait">
+
                 <motion.div
                     key={page}
                     custom={direction}
@@ -80,15 +81,45 @@ const Book = () => {
   ring-2 ring-pink-200/50
   overflow-hidden
 ">
+                    <div className="absolute inset-0 bg-pink-300/30 blur-2xl -z-10" />
+                    <div
+                        className="
+    pointer-events-none
+    absolute inset-0
+    bg-gradient-to-tr
+    from-white/5
+    via-white/40
+    to-white/5
+    opacity-70
+    rotate-12
+    translate-x-[-120%] translate-y-[120%]
+    animate-[shine_4s_infinite]
+    w-full
+    h-[200%]
+  "
+                    />
 
                     <div className="absolute inset-0 bg-pink-300/30 blur-2xl -z-10" />
 
-                    <div className="
-    absolute inset-0
-    bg-gradient-to-r from-transparent via-white/20 to-transparent
-    translate-x-[-100%]
-    animate-[shimmer_3s_infinite]
-  "/>
+                    {/* <div
+                        className="
+      pointer-events-none
+    absolute
+    left-[-30%]
+    bottom-[-20%]
+    w-[160%]
+    h-1
+    bg-gradient-to-r
+    from-transparent
+    via-white/60
+    to-transparent
+    opacity-50
+    rotate-[-35deg]
+    animate-[shine_4s_infinite]
+    "
+                    /> */}
+
+
 
                     <div className="absolute top-3 right-4 text-white/60 text-2xl animate-pulse">❤️</div>
                     <div className="absolute bottom-4 left-4 text-white/50 text-xl animate-pulse delay-300">💕</div>
