@@ -14,7 +14,7 @@ const Page1 = () => {
                 ❤️
             </motion.span>
 
-            <h1 className="text-xl text-gray-200" style={{letterSpacing:"1px"}}>Our Valentine Cards</h1>
+            <h3 className="text-lg text-gray-200" style={{letterSpacing:"1px"}}>Our Valentine Cards</h3>
         </div>
     );
 }
